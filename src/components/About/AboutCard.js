@@ -8,15 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m <span className="purple">Sneha Murali </span>{" "}
+            from <span className="purple">Seattle, Washington</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            I’m currently a junior at Univeristy of Washington
+            {/* <span className="purple">Software Developer</span> at{" "} */}
+            {/* <span className="purple">Juspay</span>. */}
+            <br />studying computer science!
+            {/* <span className="purple">Mathematics and Computing</span> from{" "} */}
+            {/* <span className="purple">BIT Mesra</span>. */}
             <br />
             <br />
             Outside of coding, I love engaging in activities that keep me
@@ -25,20 +25,20 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Going on walks 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Traveling 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Reading Stephen King Novels!
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive to build things that uplift the community around you!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Sneha</footer>
         </blockquote>
       </Card.Body>
     </Card>

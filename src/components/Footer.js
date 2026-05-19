@@ -14,16 +14,17 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Portfolio design inspired by Soumyajit4419's open-source template.
+          Customized and developed by Sneha Murali.</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
+        {/* <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>
-        </Col>
+        </Col> */}
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/snehamurali35"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -31,7 +32,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://twitter.com/Soumyajit4419"
                 style={{ color: "white" }}
@@ -40,10 +41,10 @@ function Footer() {
               >
                 <AiOutlineTwitter />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/sneha-murali-b8a77928b/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -52,14 +53,14 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
+              {/* <a
                 href="https://www.instagram.com/soumyajit4419"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
-              </a>
+              </a> */}
             </li>
           </ul>
         </Col>
